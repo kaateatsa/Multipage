@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+/* Main column */
+.main {  
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {  
+    flex-direction: column;
+  }
+}
+
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+ <div class="header">
+  <h1>Kerry Harrison INC:</h1>
+ </div>
+
+
+ 
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <img src="https://s.yimg.com/ny/api/res/1.2/Xw8bTO5lKBQJOK5hxnOBmg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTc0NA--/https://media.zenfs.com/en/buzzfeed_articles_778/dade9d1d72bb35622679d4fd6bf289cf" alt="Girl in a jacket" width="200" height="300">
+
+    <h2>summary </h2>
+     <p>Kerry Inc is a business company that solves the daily problem people face such as roof flooding. </p>
+    <p>We are also specialized in buying and selling new houses.</p>
+     <hr>
+<br>
+   
+<h2>Education</h2> 
+<ul>
+    <li> I currently attend Horizon Science Academy</li>
+</ul>
+ <hr>
+ <h2>work Experience</h2>
+ <ul>
+     <p> I worked at Mcdonald's</p> 
+    <li>Took oders</li>
+    <li>Served food</li>
+    <li>Did kitchen</li>
+    <li>wash dishes</li>
+    <li>Cleaned the lobby</li>
+</ul>
+<hr>
+<h2>skills</h2>
+<ul>
+    <li> Costomer service</li>
+    <li>lift heavy objects</li>
+    <li>Kindness</li>
+</ul>
+<hr>
+<h2> Awards and Certification</h2>
+<ul>
+    <li>Tech Corps Certification</li>
+    <li>Cysp Gold medalist</li>
+    <li>Codeathon 2nd place winner</li>
+</ul>
+<hr>
+ 
+  <div class="main">
+    <h2>More About me</h2>
+    <nav>
+        <a href="./firstpage.html">Home</a>
+        <br>
+        <a href="./Secondpage.html">My hobbies</a>
+        <br>
+        
+        <a href="./thirdpage.html">My contacts</a>
+      </nav>
+
+       <Center>
+        <h2> Thanks for visiting my website!!</h2>
+       </Center>
+   </div>
+</div>
+
+
+ 
+
+
+</body>
+</html>
